@@ -31,6 +31,8 @@ necessity of hospital admission or discharge.
 4.We will use  Techniques of Machine Learning algorithm to collect data via ECG electrodes through patient’s body and monitor the changes .
 5.We will use a AI assistant chatbot that will help to communicate with the dashboard continuously.
 
+The MAX30102 pulse oximeter and heart rate sensor is an I2C-based low-power plug-and-play biometric sensor. It can be used by students, hobbyists, engineers, manufacturers, and game & mobile developers who want to incorporate live heart-rate data into their projects.
+
 ECG can be analyzed by studying components of the waveform. These waveform components indicate cardiac electrical activity. The first upward of the ECG tracing is the P wave. It indicates atrial contraction.The QRS complex begins with Q, a small downward deflection, followed by a larger upwards deflection, a peak (R); and then a downwards S wave. This QRS complex indicates ventricular depolarization and contraction. Finally, the T wave, which is normally a smaller upwards waveform, representing ventricular re-polarization.
 
 ![EKG-oneBeat](https://github.com/JyotikaJayani-08/Ambu-Trackers-Hackfest/assets/158709375/816e12fe-87a0-452d-8d45-0b804d940e9c)
