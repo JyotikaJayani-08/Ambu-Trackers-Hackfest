@@ -80,6 +80,11 @@ patient data.
 Test the entire system for accuracy, reliability, and user
 experience.
 
+Libraries used in our code:
+
+![WhatsApp Image 2024-05-11 at 09 44 53_2e98924a](https://github.com/JyotikaJayani-08/Ambu-Trackers-Hackfest/assets/158709375/c6519b49-622f-452d-b71e-7d0ee6c9098c)
+
+
 FLOWCHART:-
 ![flowchart1](https://github.com/JyotikaJayani-08/Ambu-Trackers-Hackfest/assets/158709375/a285302e-5a47-499d-9100-6872e2eb5ed3)
 
