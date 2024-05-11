@@ -25,11 +25,25 @@ and analyzing this real-time data, healthcare providers can remotely
 assess the patient's condition and make informed decisions regarding the
 necessity of hospital admission or discharge.
 # OUR APPROACH :-
-1.We will use various sensors like Pulse sensor,Temparature Sensor,Blood Pressure sensor (MAX 30102) etc. to collect  the data from the patient's body to monitor the physiological changes.
+1.We will use sensors like MAX 30102 pulse oximeter and AD8232 ECG sensor to collect  the data from the patient's body to monitor the physiological changes.
 2.We will then send this data through ESP32 Microcontroller to process  and transmit the data.
 3.We will then send this processsed data through Blink IOT and Ubidots platform to  the hospital dashboard that will update with patient’s condition.
 4.We will use  Techniques of Machine Learning algorithm to collect data via ECG electrodes through patient’s body and monitor the changes .
 5.We will use a AI assistant chatbot that will help to communicate with the dashboard continuously.
+
+ECG can be analyzed by studying components of the waveform. These waveform components indicate cardiac electrical activity. The first upward of the ECG tracing is the P wave. It indicates atrial contraction.The QRS complex begins with Q, a small downward deflection, followed by a larger upwards deflection, a peak (R); and then a downwards S wave. This QRS complex indicates ventricular depolarization and contraction. Finally, the T wave, which is normally a smaller upwards waveform, representing ventricular re-polarization.
+
+![EKG-oneBeat](https://github.com/JyotikaJayani-08/Ambu-Trackers-Hackfest/assets/158709375/816e12fe-87a0-452d-8d45-0b804d940e9c)
+
+
+Medical uses of ECG
+An electrocardiogram can be a useful way to find out whether your high blood pressure has caused any damage to your heart or blood vessels. Because of this, you may be asked to have an ECG when you are first diagnosed with high blood pressure.
+
+Some of the things an ECG reading can detect are:
+1. cholesterol clogging up your heart’s blood supply
+2. a heart attack in the past
+3. enlargement of one side of the heart
+4. abnormal heart rhythms
 
 The implementation of this solution offers several key benifits
 including:-
