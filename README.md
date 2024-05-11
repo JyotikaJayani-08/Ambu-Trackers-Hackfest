@@ -10,14 +10,14 @@ Team Members:-
 In the transition of patients from high acuity environments such as operating
 rooms (OR) or intensive care units (ICU) to lower acuity wards, significant
 physiological changes may occur due to the altered environmental conditions.
-Among these patients, individuals experiencing frequent seizure attacks and several critical health issues present in  a particularly critical scenario,
+Among these patients, individuals experiencing frequent seizure attacks and several critical health issues present in a particularly critical scenario,
 often necessitating immediate medical attention. However, the timely arrival of ambulance services may pose
 challenges, potentially exacerbating the patient's condition.
-To address this challenge, our solution entails the utilization of wearable
+To address this challenge, our solution entails the utilization of 
 monitoring devices capable of real-time data collection and analysis. By
 leveraging advanced hardware and software components, we establish a
 comprehensive monitoring system integrated with Internet of Things (IoT) and ML
-cloud infrastructure, specifically utilizing the Blynk /UPI platform.
+cloud infrastructure, specifically utilizing the Blynk and ubidots platform.
 This system enables continuous monitoring of the patient's physiological
 parameters, including vital signs and seizure activity, during the transition
 period from high to low acuity environments and beyond. By aggregating
@@ -25,10 +25,10 @@ and analyzing this real-time data, healthcare providers can remotely
 assess the patient's condition and make informed decisions regarding the
 necessity of hospital admission or discharge.
 # OUR APPROACH :-
-1.We will use the various sensor like Pulse sensor,Temparature Sensor,Blood Pressure  Sensor etc. to collect  the data from the patient's body to monitor the physiological changes.
+1.We will use various sensors like Pulse sensor,Temparature Sensor,Blood Pressure  Sensor etc. to collect  the data from the patient's body to monitor the physiological changes.
 2.We will then send this data through ESP32 Microcontroller to process  and transmit the data.
-3.We will then send this processsed data through Blink IOT Platform to  the Hospital Dashboard that will update with patient’s condition.
-4.We will use  Techniques of Machine Learning algorithm to collect data via electrodes through patient’s body and  monitor the changes .
+3.We will then send this processsed data through Blink IOT and Ubidots platform to  the hospital dashboard that will update with patient’s condition.
+4.We will use  Techniques of Machine Learning algorithm to collect data via ECG electrodes through patient’s body and monitor the changes .
 5.We will use a AI assistant chatbot that will help to communicate with the dashboard continuously.
 
 The implementation of this solution offers several key benifits
