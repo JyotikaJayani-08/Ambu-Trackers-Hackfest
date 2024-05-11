@@ -25,7 +25,7 @@ and analyzing this real-time data, healthcare providers can remotely
 assess the patient's condition and make informed decisions regarding the
 necessity of hospital admission or discharge.
 # OUR APPROACH :-
-1.We will use various sensors like Pulse sensor,Temparature Sensor,Blood Pressure  Sensor etc. to collect  the data from the patient's body to monitor the physiological changes.
+1.We will use various sensors like Pulse sensor,Temparature Sensor,Blood Pressure sensor (MAX 30102) etc. to collect  the data from the patient's body to monitor the physiological changes.
 2.We will then send this data through ESP32 Microcontroller to process  and transmit the data.
 3.We will then send this processsed data through Blink IOT and Ubidots platform to  the hospital dashboard that will update with patient’s condition.
 4.We will use  Techniques of Machine Learning algorithm to collect data via ECG electrodes through patient’s body and monitor the changes .
@@ -50,7 +50,7 @@ timely and effective care, ultimately improving patient outcomes
 and reducing healthcare costs.
 
 # TECH STACK USED-
-IOT,ARDUINO UNO,BLYNK SOFTWARE,AI/ML,WEB DEVELOPMENT
+IOT, esp32,BLYNK SOFTWARE and Ubidots, AI/ML, WEB DEVELOPMENT
 # BASIC OVERFLOW :- 
 1. Assemble and test each sensor with the ESP32 individually.
 2. Integrate all sensors with the ESP32, ensuring stable
