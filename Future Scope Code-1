@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nearby Hospitals</title>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZP1ebK7QySy0tdM5I6pndijdhl0zjIZ8&libraries=places"></script>
+<style>
+    #map {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+<h1>Nearby Hospitals</h1>
+<div id="map"></div>
+<script>
+  function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: -34.397, lng: 150.644 },
+            zoom: 15,
+        });
+
+        const request = {
+            location: map.getCenter(),
+            radius: '5000',  // Specify radius in meters
+            type: ['hospital']
+        };
+
+        const service = new google.maps.places.PlacesService(map);
+
+        service.nearbySearch(request, (results, status) => {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                for (let i = 0; i < results.length; i++) {
+                    createMarker(results[i]);
+                }
+     }
+        });
+
+        function createMarker(place) {
+            const marker = new google.maps.Marker({
+                map,
+                position: place.geometry.location,
+            });
+
+            const infowindow = new google.maps.InfoWindow({
+                content: place.name,
+            });
+
+            marker.addListener("click", () => {
+                infowindow.open(map, marker);
+            });
+        }
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=places" async defer></script>
+</body>
+</html>
