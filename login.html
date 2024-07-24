@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Hospital Sign in Details</h1>
+        <h3>Enter your login credentials</h3>
+        <form id="loginForm">
+            <label for="first">Username:</label>
+            <input type="text" id="first" name="first" placeholder="Enter your Username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="button" onclick="solve()">Submit</button>
+            </div>
+        </form>
+        <p>Not registered? 
+            <a href="#" style="text-decoration: none;">Create an account</a>
+        </p>
+        <p id="message" style="color: red;"></p>
+    </div>
+
+    <script>
+        function solve() {
+            const username = document.getElementById('first').value;
+            const password = document.getElementById('password').value;
+            const message = document.getElementById('message');
+
+            if (username === 'ambutracker' && password === '1440abc') {
+                window.location.href = 'st.html';
+            } else {
+                message.style.color = 'red';
+                message.textContent = 'Invalid username or password.';
+            }
+        }
+        
+    </script>
+    <link rel="stylesheet" href="st.css" />
+    
+
+</body>
+
+</html>
