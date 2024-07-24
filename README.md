@@ -98,29 +98,6 @@ FLOWCHART:-
 ![Flowchart2](https://github.com/JyotikaJayani-08/Ambu-Trackers-Hackfest/assets/158709375/8be35b2c-c3a5-4ea1-8ebe-9675b1182fc6)
 
 
-# FUTURE SCOPE:-
-1.We will try to integrate the blynk software with the web dashboard and integrate Chatbot Assistant AI which can communicate with the user regarding the health details of the person.
-
-
-2.Also we will try to integrate API Gemini Maps in the web dashboard where the ambulance can reach the nearby hospitals.
-
-
-
-
-
-![futurescope1](https://github.com/JyotikaJayani-08/Ambu-Trackers-Hackfest/assets/158709375/dc6ac768-91f7-4bea-9851-5a8e8ac9887d)
-
-
-
-
-
-
-
-
-
-
-![futurescope2](https://github.com/JyotikaJayani-08/Ambu-Trackers-Hackfest/assets/158709375/05139ee9-317b-45af-b259-1df6d53eb9df)
-
 
 
 
