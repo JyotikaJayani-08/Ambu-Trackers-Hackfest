@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Monitor Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Health Monitor Dashboard</h1>
+  </header>
+  <main>
+    <section>
+      <h2>BPM (Heart Rate)</h2>
+      <div id="bpm-value" class="parameter">Loading...</div>
+      <button onclick="getBpm()">Refresh BPM</button>
+    </section>
+    <section>
+      <h2>Temperature</h2>
+      <div id="temperature-value" class="parameter">Loading...</div>
+      <button onclick="getTemperature()">Refresh Temperature</button>
+    </section>
+    <section>
+      <h2>SpO2</h2>
+      <div id="spo2-value" class="parameter">Loading...</div>
+      <button onclick="getSpO2()">Refresh SpO2</button>
+    </section>
+    <section>
+      <h2>Medication Reminders</h2>
+      <ul id="medications-list"></ul>
+      <input type="text" id="new-reminder" placeholder="New reminder">
+      <button onclick="addReminder()">Add Reminder</button>
+    </section>
+    <div id="alert-message">No alerts</div>
+  </main>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="st.css"/>
+</body>
+</html>
