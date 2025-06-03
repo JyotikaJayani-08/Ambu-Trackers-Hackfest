@@ -34,7 +34,6 @@ necessity of hospital admission or discharge.
 1.We will use sensors like MAX 30102 pulse oximeter and AD8232 ECG sensor to collect  the data from the patient's body to monitor the physiological changes.
 2.We will then send this data through ESP32 Microcontroller to process  and transmit the data.
 3.We will then send this processsed data through Blink IOT and Ubidots platform to  the hospital dashboard that will update with patient’s condition.
-4.We will use  Techniques of Machine Learning algorithm to collect data via ECG electrodes through patient’s body and monitor the changes(using the coolterm software and converting the data into csv file for applying ML Model) .
 
 
 The MAX30102 pulse oximeter and heart rate sensor is an I2C-based low-power plug-and-play biometric sensor. It can be used by students, hobbyists, engineers, manufacturers, and game & mobile developers who want to incorporate live heart-rate data into their projects.
@@ -72,17 +71,16 @@ timely and effective care, ultimately improving patient outcomes
 and reducing healthcare costs.
 
 # TECH STACK USED-
-IOT, esp32,BLYNK SOFTWARE and Ubidots, AI/ML,CoolTerm Software(To Convert ECG dataset into csv file), WEB DEVELOPMENT 
+IOT, esp32,BLYNK SOFTWARE and Ubidots,  WEB DEVELOPMENT 
 # BASIC OVERFLOW :- 
 1. Assemble and test each sensor with the ESP32 individually.
 2. Integrate all sensors with the ESP32, ensuring stable
 simultaneous operation.
 3. Implement signal processing algorithms to extract clean data
 from the sensors.
-4.We will use  Techniques of Machine Learning algorithm to collect data via ECG electrodes through patient’s body and monitor the changes(using the coolterm software and converting the data into csv file for applying ML Model) .
-5. Establish connectivity with the Blink IoT platform and ensure
+4. Establish connectivity with the Blink IoT platform and ensure
 reliable data transmission.
-6. Develop or set up the hospital dashboard to receive and display
+5. Develop or set up the hospital dashboard to receive and display
 patient data.
 Test the entire system for accuracy, reliability, and user
 experience.
